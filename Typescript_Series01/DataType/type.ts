@@ -4,9 +4,9 @@ undefined,void,object,array,tuples,any,never and unknown.
 */
 
 let greeting: string = "Hello, Amit";
-let myNum = 283;
+let myNum: number = 283;
 greeting.toLowerCase();
 console.log(greeting);
-
+console.log(myNum);
 // declared this to remove error temporarily
 export { }
