@@ -6,5 +6,8 @@ type Users = {
     isActive: boolean
 }
 
+const allUsers: Users[] = []
+
 superHeros.push("batMan")
 heroPower.push(2)
+allUsers.push({ name: "", isActive: true })
